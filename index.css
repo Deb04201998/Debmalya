@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff7f8;
+}
+
+header {
+  background: #8b1e3f;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.hero {
+  background: #d4af37;
+  text-align: center;
+  padding: 80px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
